@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { useEffect } from 'react';
+import Header from "./components/Header.js";
+import Numbers from './components/Numbers.js';
+import FullGraph from './components/FullGraph';
+import Sales from './components/Sales.js';
+import Table from './components/Table.js';
+import Sidebar from './components/Sidebar.js';
 
-function App() {
+
+const App = () => {
+  useEffect(() => {
+    document.title = 'Rise11';
+  });
+  const [showSidebar, setShowSidebar] = useState(false);
+  const toggleSidebar = () => setShowSidebar(!showSidebar);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div className={`header-container ${showSidebar ? 'shrink' : ''}`}>
+        <Header toggleSidebar={toggleSidebar} />
+      </div>
+      {showSidebar && <Sidebar />}
+      <div className={`content ${showSidebar ? 'shrink' : ''}`}>
+        <Numbers />
+        <FullGraph />
+        <Sales/>
+        <Table/>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App

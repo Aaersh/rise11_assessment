@@ -1,0 +1,120 @@
+.full-graph{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    margin-top: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+/*line graph css*/
+.full-line-graph{
+    width: 65%;
+    height: 100%;
+}
+.line-graph-header{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+}
+.line-graph-body{
+    width: 100%;
+    height: 90%;
+    background-color: white;
+}
+.line-graph-title{
+    margin-left: 0px;
+    width: 22%;
+    height: 100%;
+    color: rgb(91, 37, 177);
+    
+    display: flex;
+}
+.title-p{
+    font-size: smaller;
+}
+.up-graph{
+    display: flex;
+    border: none;
+    background-color: white;
+    color: rgb(0, 190, 0);
+}
+.up-graph::before {
+    content: url('../assets/graph-up-arrow.svg');
+    margin-right: 3px; 
+}
+.line-graph-options{
+    margin-left: auto;
+    margin-right: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.options-p{
+    font-size: smaller;
+    color: rgb(91, 37, 177);
+}
+.line-graph-list{
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+}
+#cars{
+    border: none;
+    font-size: smaller;
+    color: rgb(91, 37, 177);
+}
+#cars:hover{
+    cursor: pointer;
+}
+option{
+    font-size: smaller;
+    color: rgb(91, 37, 177);
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.blue{
+    background-color: rgb(91, 37, 177);
+}
+.orange{
+    background-color: rgb(227, 87, 54);
+}
+.revenue{
+    margin-left: 0px;
+}
+/*bar graph css*/
+.full-bar-graph{
+    margin-left: 4%;
+    width: 23%;
+    height: 100%;
+
+}
+
+.down-graph{
+    display: flex;
+    border: none;
+    background-color: white;
+    color: red;
+}
+.down-graph::before {
+    content: url('../assets/graph-down-arrow.svg');
+    margin-right: 3px; 
+}
+
+#dots-button{
+    border: none;
+    color: transparent;
+    background-color: #d9d9f9;
+    border-radius: 50%;
+    background: url('../assets/three-dots-vertical.svg') no-repeat center;
+}
+#dots-button:hover{
+    cursor: pointer;
+    background-color: #f7f1f1;
+}
