@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/rise11_assessment/static/css/main.259b47a0.css",
+    "main.js": "/rise11_assessment/static/js/main.64677f50.js",
+    "static/js/787.6a5070d4.chunk.js": "/rise11_assessment/static/js/787.6a5070d4.chunk.js",
+    "static/media/sde.jpg": "/rise11_assessment/static/media/sde.5820388f6131d9118da1.jpg",
+    "static/media/ProfilePic.jpeg": "/rise11_assessment/static/media/ProfilePic.f7932b13fbb8bfe6c093.jpeg",
+    "static/media/grandOpening.jpg": "/rise11_assessment/static/media/grandOpening.958551e3285c9218cca0.jpg",
+    "static/media/slack.svg": "/rise11_assessment/static/media/slack.ba47bf3bced42a9a65ac.svg",
+    "static/media/chat-dots.svg": "/rise11_assessment/static/media/chat-dots.4f1b80f11d4276a76450.svg",
+    "index.html": "/rise11_assessment/index.html",
+    "static/media/bell.svg": "/rise11_assessment/static/media/bell.5273940ea161055728fd.svg",
+    "static/media/upload.svg": "/rise11_assessment/static/media/upload.6e8617b83e55de82c1eb.svg",
+    "static/media/graph-up-arrow.svg": "/rise11_assessment/static/media/graph-up-arrow.db0552bfd6b45efc8b49.svg",
+    "static/media/calendar.svg": "/rise11_assessment/static/media/calendar.0aa970cf2052f800fc7a.svg",
+    "static/media/graph-down-arrow.svg": "/rise11_assessment/static/media/graph-down-arrow.b3e5f8c05c8b2506fb59.svg",
+    "static/media/activity.svg": "/rise11_assessment/static/media/activity.79b7ffbdd61ac65a4f36.svg",
+    "static/media/list.svg": "/rise11_assessment/static/media/list.1320df01975afb9d39dd.svg",
+    "static/media/book-open.svg": "/rise11_assessment/static/media/book-open.67a128a70b4eaa20f68b.svg",
+    "static/media/dollar-sign.svg": "/rise11_assessment/static/media/dollar-sign.8d9a6f938731fde21207.svg",
+    "static/media/home.svg": "/rise11_assessment/static/media/home.f981ee9d6dcfecf8c081.svg",
+    "static/media/search.svg": "/rise11_assessment/static/media/search.ced13e311b4171b351b2.svg",
+    "static/media/trending-up.svg": "/rise11_assessment/static/media/trending-up.ebfe9a72d68a38151817.svg",
+    "static/media/play-circle.svg": "/rise11_assessment/static/media/play-circle.dcf880c0306a61d5aa81.svg",
+    "static/media/user.svg": "/rise11_assessment/static/media/user.780a52a3688dd2fd0230.svg",
+    "static/media/message-square.svg": "/rise11_assessment/static/media/message-square.da92dd7a0359c3b9e6fb.svg",
+    "static/media/three-dots-vertical.svg": "/rise11_assessment/static/media/three-dots-vertical.e3e48bc1e26d6221b2bb.svg",
+    "main.259b47a0.css.map": "/rise11_assessment/static/css/main.259b47a0.css.map",
+    "main.64677f50.js.map": "/rise11_assessment/static/js/main.64677f50.js.map",
+    "787.6a5070d4.chunk.js.map": "/rise11_assessment/static/js/787.6a5070d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.259b47a0.css",
+    "static/js/main.64677f50.js"
+  ]
+}
